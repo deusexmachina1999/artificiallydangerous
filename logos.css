@@ -169,7 +169,7 @@ header {
     border: 2px solid black;
     color: black;
     width: fit-content;
-    display: inline-block;
+    display: flex;
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
@@ -184,6 +184,7 @@ header {
     width: fit-content;
     border: 2px solid black;
     margin: 50px;
+    margin-left: 600px;
     padding: 5px;
     background-color: darkseagreen;
     max-width: 400px;
