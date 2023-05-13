@@ -325,3 +325,16 @@ header {
     background-color: darkseagreen;
     line-height: 2em;
 }
+
+#img1 {
+    margin-left: 1000px;
+    margin-right: 50px;
+    text-align:center;
+    display: flex;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 5px;
+    background-color: darkseagreen;
+    float: left;
+}
