@@ -338,3 +338,17 @@ header {
     background-color: darkseagreen;
     float: left;
 }
+
+#img2 {
+    margin-left: 1000px;
+    margin-right: 50px;
+    margin-top: 45px;
+    text-align:center;
+    display: flex;
+    width: fit-content;
+    border: 2px solid black;
+    margin: 50px;
+    padding: 5px;
+    background-color: darkseagreen;
+    float: left;
+}
