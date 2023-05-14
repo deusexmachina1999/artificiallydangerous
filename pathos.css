@@ -128,17 +128,21 @@ header {
     margin: 50px;
     padding: 5px;
     background-color: darkseagreen;
+    float: left;
 }
 
 #img2 {
     margin-left: 1000px;
     margin-right: 50px;
+    margin-top: 45px;
+    text-align:center;
     display: flex;
     width: fit-content;
     border: 2px solid black;
-    margin: 50px;
     padding: 5px;
+    margin: 50px;
     background-color: darkseagreen;
+    float: left;
 }
 
 #p3 {
@@ -147,10 +151,12 @@ header {
     border: 2px solid black;
     color: black;
     width: fit-content;
+    float: left;
     display: block;
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     line-height: 2em;
 }
 
