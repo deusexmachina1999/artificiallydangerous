@@ -177,14 +177,14 @@ header {
 }
 
 #img1 {
-    margin-left: 1000px;
     margin-right: 50px;
     text-align:center;
     display: flex;
     width: fit-content;
     border: 2px solid black;
     margin: 50px;
-    margin-left: 600px;
+    margin-left: 1000px;
+    margin-top: 50px;
     padding: 5px;
     background-color: darkseagreen;
     max-width: 400px;

@@ -5,3 +5,9 @@ if (text.includes("grow") || text.includes("growth")) {
     sayGrowth();
 }
 */
+
+console.log("Button pressed.");
+
+function start() {
+    
+}
