@@ -359,5 +359,7 @@ header {
     border-radius: 50%;
     padding: 20px;
     position:sticky;
+    position: -webkit-sticky;
     top: 0px;
+    align-items:flex-end;
 }
