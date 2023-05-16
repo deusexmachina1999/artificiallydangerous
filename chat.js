@@ -9,5 +9,10 @@ if (text.includes("grow") || text.includes("growth")) {
 console.log("Button pressed.");
 
 function start() {
-    create
+    let start = document.getElementById("chat");
+    start.style.backgroundColor = "black";
+    let body = document.getElementById("chat1");
+    body.style.backgroundColor = "black";
 }
+
+//
