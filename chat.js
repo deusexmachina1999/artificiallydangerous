@@ -9,5 +9,5 @@ if (text.includes("grow") || text.includes("growth")) {
 console.log("Button pressed.");
 
 function start() {
-    
+    create
 }
