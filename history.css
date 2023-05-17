@@ -369,16 +369,27 @@ header {
     top: 0px;
     background-color: rgba(169, 169, 169, 0.253);
     width: 100vw;
-    height: 100vh;
+    height: 750vh;
     visibility: visible;
 }
 
 #chatbot {
-    background-color: bisque;
+    background-color: black;
+    color: white;
     padding: 20px;
     position: relative;
-    width: fit-content;
-    top: 20vh;
-    left: 40vw;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    top: 10vh;
+    left: 35vw;
+    border-radius: 5%;
+    border: 2px solid white;
+}
 
+#opener {
+    background-color: darkseagreen;
+    color: black;
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
 }
