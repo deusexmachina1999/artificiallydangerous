@@ -8,13 +8,6 @@ if (text.includes("grow") || text.includes("growth")) {
 
 console.log("Button pressed.");
 
-function start() {
-    let start = document.getElementById("chat");
-    start.style.backgroundColor = "black";
-    let body = document.getElementById("chat1");
-    body.style.backgroundColor = "black";
-}
-
 // Work on ^
 
 function sendMessage() {
@@ -33,9 +26,14 @@ function sendMessage() {
 
     //change styles
     text.style.backgroundColor = "darkseagreen";
-    text.style.alignSelf = "flex-end";
+    text.style.alignSelf = "flex";
+    text.style.color = "black";
+    text.style.width = "fit-Content";
+    text.style.padding = "5px";
+    text.style.borderRadius = "5px";
+    text.style.border = "2px solid darkolivegreen";
     // append message to the box
-    let messageBox = document.getElementById("chatbot");
-    chatbot.appendChild(text);
+    let messageBox = document.getElementById("addHere");
+    addHere.appendChild(text);
 
 }

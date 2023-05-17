@@ -122,17 +122,23 @@
     </main>
     <div id="popup">
         <div id="chatbot">
-            <p id="opener">Hello. I am a chat-bot designed to
-                answer any question you have about 
-                this website and the information
-                contained in it. I cannot guarentee 
-                amy ability to answerevery question
-                you have, but I will do my best. What
-                can I help you with first?
-            </p>
-            <input type="text" id="userResponse">
-            <button onclick="sendMessage()">Send</button>
+            <div id="addHere">
+                <p id="opener">Hello. I am a chat-bot designed to
+                    answer any question you have about 
+                    this website and the information
+                    contained in it. I cannot guarentee 
+                    my ability to answer every question
+                    you have, but I will do my best. What
+                    can I help you with first?
+                </p>
+            </div>
+            
+            <section id="chatbottom">
+                <input type="text" id="userResponse">
+                <button onclick="sendMessage()">Send</button>
+            </section>
         </div>
+
     </div>
 </body>
 <script src="chat.js"></script>

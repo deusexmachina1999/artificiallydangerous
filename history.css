@@ -371,14 +371,19 @@ header {
     width: 100vw;
     height: 750vh;
     visibility: visible;
+    /* Change to hidden ^ */
 }
 
 #chatbot {
+    display: flex;
     background-color: black;
-    color: white;
+    color: black;
     padding: 20px;
     position: relative;
+    min-height: 80vh;
+    max-width: 30vw;
     flex-direction: column;
+    justify-content: space-between;
     width: 30vw;
     height: 80vh;
     top: 10vh;
@@ -392,4 +397,32 @@ header {
     color: black;
     border: 2px solid darkolivegreen;
     border-radius: 5px;
+}
+
+#addHere {
+    overflow: auto;
+
+}
+
+#chatbottom {
+    flex-direction:column;
+    display: block;
+}
+
+input {
+    background-color: darkseagreen;
+    color: black;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px;
+    width: 100%;
+}
+
+button {
+    margin-top: 5px;
+    background-color: darkseagreen;
+    color:black;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
