@@ -14,6 +14,8 @@ function sendMessage() {
     console.log("Button pressed.");
     // Get user input
     let input = document.getElementById("userResponse");
+    let popUp = document.getElementById("popup");
+    popUp.style.visibility = "visible";
     let userData = input.value;
     input.value = "";
     console.log(userData)
