@@ -27,13 +27,22 @@ function sendMessage() {
     //change styles
     text.style.backgroundColor = "darkseagreen";
     text.style.alignSelf = "flex";
+    text.style.textAlign = "right";
     text.style.color = "black";
     text.style.width = "fit-Content";
-    text.style.padding = "5px";
+    text.style.padding = "5px 10px";
     text.style.borderRadius = "5px";
     text.style.border = "2px solid darkolivegreen";
     // append message to the box
     let messageBox = document.getElementById("addHere");
     addHere.appendChild(text);
 
+    text = text.ToLowercase();
+
+    if (text.includes("grow") || text.includes("growth")
+    || text.includes("growing")) {
+        grow();
+    } else {
+        if (text.includes("___"))
+    }
 }

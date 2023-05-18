@@ -182,150 +182,6 @@ header {
     padding-left: 5px;
 }
 
-#eleven {
-    margin-top: 20px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#twelve {
-    margin-top: 25px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#thirteen {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    background-color: darkseagreen;
-    line-height: 2em;
-}
-
-#fourteen {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#fifteen {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#sixteen {
-    margin-top: 10px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#seventeen {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#eighteen {
-    margin-top: 20px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    background-color: darkseagreen;
-    line-height: 2em;
-}
-
-#nineteen {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#twenty {
-    margin-top: 10px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#twentyone {
-    margin-top: 15px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    background-color: darkseagreen;
-    line-height: 2em;
-}
-
-#twentytwo {
-    margin-top: 10px;
-    border: 1px solid darkseagreen;
-    background-color: darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    line-height: 2em;
-}
-
-#twentythree {
-    margin-top: 40px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#twentyfour {
-    margin-top: 15px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    background-color: darkseagreen;
-    line-height: 2em;
-    padding-left: 5px;
-}
-
-#twentyfive {
-    margin-top: 10px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    background-color: darkseagreen;
-    line-height: 2em;
-}
-
-#twentysix {
-    margin-top: 25px;
-    border: 1px solid darkseagreen;
-    text-align: left;
-    padding-left: 5px;
-    background-color: darkseagreen;
-    line-height: 2em;
-}
-
 #img1 {
     margin-left: 1000px;
     margin-right: 50px;
@@ -393,15 +249,15 @@ header {
 }
 
 #opener {
-    background-color: darkseagreen;
+    background-color: darkolivegreen;
     color: black;
+    padding: 5px 10px;
     border: 2px solid darkolivegreen;
     border-radius: 5px;
 }
 
 #addHere {
     overflow: auto;
-
 }
 
 #chatbottom {
