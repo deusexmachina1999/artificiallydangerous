@@ -282,3 +282,12 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+
+.response {
+    background-color: darkseagreen;
+    color: black;
+    width: fit-Content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid darkolivegreen;
+}
